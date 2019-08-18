@@ -5,7 +5,6 @@ function getRandomIndex(max) {
     return Math.floor(Math.random() * max);
 }
 
-
 const App = (props) => {
     const [selected, setSelected] = useState(0)
     const [points, setPoints] = useState(Array.apply(null, new Array(anecdotes.length)).map(Number.prototype.valueOf,0))
